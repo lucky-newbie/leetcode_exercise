@@ -30,6 +30,7 @@ return its level order traversal as:
 /**
  * @param {TreeNode} root
  * @return {number[][]}
+ * 使用队列实现树的广度优先遍历
  */
 var levelOrder = function(root) {
   if (!root) {
