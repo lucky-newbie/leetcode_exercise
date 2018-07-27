@@ -1,4 +1,4 @@
-Leetcode 练习
+Leetcode exercise
 
 ##
-1.对应文件夹即为leetcode下对应题目javascript解法
+this is leetcode exercise with javascript, each folder is same to leetcode question
