@@ -35,3 +35,38 @@ var binaryTreePaths = function(root) {
   }
   return resultArray;
 };
+
+
+
+/* 第二种实现 */
+let result = [];
+var binaryTreePaths = function(root) {
+    result = [];
+    findNode(root, '');
+    return result;
+    
+};
+
+
+function findNode (node, str) {
+    if (!node) {
+        return
+    }
+    let path = str;
+    if (str === '') {
+       path = node.val + '' 
+    } else {
+        path = path + '->' + node.val
+    }
+    if (node.left === null && node.right === null) {
+        result.push(path);
+        return;
+    }
+    if (node.left) {
+        findNode(node.left, path)
+    }
+    if (node.right) {
+        findNode(node.right, path)
+    }
+    
+}
