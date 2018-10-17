@@ -57,3 +57,18 @@ var searchBST = function(root, val) {
   }
   return []
 };
+
+
+// 由于是二叉搜索树，所以以下方法为更优解
+var searchBST = function(root, val) {
+  if (root.val === val){
+    return root
+  }
+  else if (root.left && root.val > val) {
+    return searchBST(root.left, val)
+  }
+  else if (root.right && root.val < val) {
+    return searchBST(root.right, val)
+  }
+  else return []
+};
