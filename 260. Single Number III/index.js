@@ -16,6 +16,20 @@
  * @return {number[]}
  * 输出顺序无关
  */
+// 解法一：
+var singleNumber = function(nums) {
+  const map = new Map();
+    nums.forEach(item => {
+        if (map.get(item) !== undefined) {
+            map.delete(item)
+        } else {
+            map.set(item, item)
+        }
+    });
+    return [...map.values()]
+};
+
+// 解法二：
 var singleNumber = function(nums) {
   const map = new Map(); // 通过map记录数组中各元素出现次数
   for (let i = 0; i < nums.length; i++) {
