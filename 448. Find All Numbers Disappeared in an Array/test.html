@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+  var findDisappearedNumbers = function(nums) {
+    /** way1: beats 24%- 31%
+      const max = nums.length;
+      const temp = []
+      for (let i = 1; i <= max; i++) { // 建立全数据数组
+        temp.push(i)
+      }
+      const set1 = new Set(nums);
+      const result = temp.filter(i => !set1.has(i)) // 全数据数组与目标数据求差集，即未缺少的数据
+      console.log(result)
+      return result;
+    */
+  };
+  const data = [4,3,2,7,8,2,3,1];
+  findDisappearedNumbers(data)
+  </script>
+</head>
+<body>
+  this is function test, watch browser consol.
+</body>
+</html>
