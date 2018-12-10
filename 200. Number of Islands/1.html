@@ -60,7 +60,7 @@ var numIslands = function(grid) {
 function dfs(grid, x, y, totalX, totalY) {
   usedArray[x][y] = true;
   console.log('usedArray[x][y]', usedArray)
-  for (i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i++) {
     const nextX = x + direction[i].x;
     const nextY = y + direction[i].y;
     if (inArray(nextX, nextY, totalX, totalY) && !usedArray[nextX][nextY] && grid[nextX][nextY] === ISLAND) {
