@@ -3,15 +3,16 @@
 ## introduction
 this is leetcode exercise with javascript, each folder is same to leetcode question
 
-|题号|标题|
-|---|---|
-|1|Two Sum|
+|题号|标题|解题|
+|---|---|---|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|
 |3|Longest Substring Without Repeating Characters|
 |17|Letter Combinations of a Phone Number|
 |19|Remove Nth Node From End of List|
 |20|Valid Parentheses|
 |24|Swap Nodes in Pairs|
 |35|Search Insert Position|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/description)|
 |79|Word Search|
 |82|Remove Duplicates from Sorted List II|
 |102|Binary Tree Level Order Traversal|
@@ -46,3 +47,4 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |821|Shortest Distance to a Character|
 |876|Middle of the Linked List|
 |905|Sort Array By Parity|
+|941|Valid Mountain Array|
