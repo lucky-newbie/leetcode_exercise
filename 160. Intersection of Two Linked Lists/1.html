@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script>
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+const t1 = new ListNode(4);
+const t2 = new ListNode(1);
+const t3 = new ListNode(8);
+const t4 = new ListNode(4);
+const t5 = new ListNode(5);
+t1.next = t2;
+t2.next = t3;
+t3.next = t4;
+t4.next = t5;
+
+const h1 = new ListNode(5);
+const h2 = new ListNode(0);
+const h3 = new ListNode(1);
+const h4 = new ListNode(8);
+const h5 = new ListNode(4);
+const h6 = new ListNode(5);
+h1.next = h2;
+h2.next = h3;
+h3.next = h4;
+h4.next = h5;
+h5.next = h6
+
+var getIntersectionNode = function(headA, headB) {
+    const map = new Map();
+    const dummyHead1 = new ListNode();
+    dummyHead1.next = headA;
+    let current = dummyHead1;
+    while (current.next) {
+        if (current.next.val !== 0) {
+            map.set(current.next.val, 1)
+        }
+        current = current.next;
+    }
+    
+    const dummyHead2 = new ListNode();
+    dummyHead2.next = headB;
+    let tempNode = dummyHead2;
+    let result = null;
+    while(tempNode.next) {
+        if (map.get(tempNode.next.val) === 1) {
+            result = tempNode.next.val;
+            return result;
+        }
+        tempNode = tempNode.next;
+    }
+    return result
+};
+
+const a = getIntersectionNode(t1, h1);
+</script>
+<body>
+  
+</body>
+</html>
