@@ -18,6 +18,7 @@
 /**
  * @param {number[]} nums
  * @return {number[][]}
+ * 采用回溯法解决排列问题
  */
   let obj = {}; // 表示是否使用过数组中的元素
   var permute = function(nums) {
