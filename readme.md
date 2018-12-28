@@ -41,6 +41,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |344|Reverse String|
 |349|Intersection of Two Arrays|
 |350|Intersection of Two Arrays II|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/)|
 |447|Number of Boomerangs|
 |448|Find All Numbers Disappeared in an Array|
 |454|4Sum II|
