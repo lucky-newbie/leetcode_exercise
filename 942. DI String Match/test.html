@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script>
+    var diStringMatch = function(S) {
+      if (!S) {
+        return [0]
+      }
+      const strArray = S.split('');
+      let i = 0;
+      let d = strArray.length;
+      const res = [];
+      for (let t = 0; t < strArray.length; t++) {
+        if (strArray[t] === 'I') {
+          res.push(i);
+          i++
+        } else if (strArray[t] === 'D') {
+          res.push(d);
+          d--;
+        }
+      }
+      if (strArray[strArray.length - 1] === 'I') {
+        res.push(i);
+      } else {
+        res.push(d)
+      }
+      return res;
+  };
+  var data1 = 'IDID';
+  console.log(diStringMatch(data1))
+  var data2 = 'III';
+  console.log(diStringMatch(data2))
+  var data3 = 'DDI';
+  console.log(diStringMatch(data3))
+</script>
+<body>
+  
+</body>
+</html>

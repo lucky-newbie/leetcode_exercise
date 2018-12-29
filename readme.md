@@ -53,3 +53,4 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |876|Middle of the Linked List|
 |905|Sort Array By Parity|
 |941|Valid Mountain Array|
+|922|[DI String Match](https://leetcode.com/problems/di-string-match/submissions/)|
