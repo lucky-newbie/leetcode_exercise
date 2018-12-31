@@ -53,5 +53,6 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |821|Shortest Distance to a Character|
 |876|Middle of the Linked List|
 |905|Sort Array By Parity|
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|
 |941|Valid Mountain Array|
-|922|[DI String Match](https://leetcode.com/problems/di-string-match/submissions/)|
+|942|[DI String Match](https://leetcode.com/problems/di-string-match/submissions/)|
