@@ -56,3 +56,4 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|
 |941|Valid Mountain Array|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/submissions/)|
+|961|[961. N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/submissions/)|
