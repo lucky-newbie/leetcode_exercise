@@ -37,6 +37,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |257|Binary Tree Paths|
 |260|Single Number III|
 |283|Move Zeroes|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|
 |344|Reverse String|
 |349|Intersection of Two Arrays|
