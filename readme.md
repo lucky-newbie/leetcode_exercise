@@ -43,6 +43,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |349|Intersection of Two Arrays|
 |350|Intersection of Two Arrays II|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/submissions/)|
+|435|[ Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/submissions/)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/)|
 |447|Number of Boomerangs|
 |448|Find All Numbers Disappeared in an Array|
