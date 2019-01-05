@@ -21,3 +21,20 @@
   你拥有的饼干数量和尺寸都足以让所有孩子满足。
   所以你应该输出2.
  */
+var findContentChildren = function(g, s) {
+  const sortG = g.sort((a,b) => b - a); // 将数组G从大到小排列下
+  const sortS = s.sort((a,b) =>  b - a); // 将数组s从大到小排列下
+  let si = 0; //s数组当前最大元素位置;
+  let gi = 0; // g数组中，当前最贪心小朋友的位置
+  let res = 0;
+  while(si < s.length && gi < g.length) {
+      if (s[si] >= g[gi]) { // 找到一个满足s[i]>g[j]，则结果+1， 将最贪心小朋友移除，gi+1， 最大饼干移除，si+1
+          res++;
+          si++;
+          gi++;
+      } else {
+          gi++; //如果当前最大饼干无法满足最贪心的小朋友，则放弃最贪心的，指向下一个贪心的小朋友
+      }
+  }
+  return res;
+};
