@@ -20,6 +20,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |102|Binary Tree Level Order Traversal|
 |103|Binary Tree Zigzag Level Order Traversal|
 |112|Path Sum|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|
 |136|Single Number|
 |144|Binary Tree Preorder Traversal|
 |153|Find Minimum in Rotated Sorted Array|
