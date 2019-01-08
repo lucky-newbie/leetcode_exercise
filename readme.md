@@ -56,6 +56,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |674|Longest Continuous Increasing Subsequence|
 |700|Search in a Binary Search Tree|
 |771|Jewels and Stones|
+|814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|
 |821|Shortest Distance to a Character|
 |876|Middle of the Linked List|
 |905|Sort Array By Parity|
