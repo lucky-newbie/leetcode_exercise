@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script>
+var judgeCircle = function(moves) {
+    if (!moves) {
+     return true   
+    }
+    const xDirection = {
+      'R': 1,
+      'L': -1
+    }
+    const yDirection = {
+      'U': -1,
+      'D': 1,
+    }
+    let xres = 0;
+    let yres = 0;
+    for (let i = 0; i < moves.length; i++) {
+        if (moves.charAt(i) === 'L' || moves.charAt(i) === 'R') {
+          xres += xDirection[moves.charAt(i)];
+        } else {
+          yres += yDirection[moves.charAt(i)];
+        }
+    }
+    if (xres === 0 && yres === 0) {
+        return true
+    } else {
+        return false
+    }
+};
+
+console.log(judgeCircle("LDRRLRUULR"))
+
+</script>
+<body>
+  
+</body>
+</html>
