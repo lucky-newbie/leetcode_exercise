@@ -10,6 +10,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |17|Letter Combinations of a Phone Number|
 |19|Remove Nth Node From End of List|
 |20|Valid Parentheses|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|
 |24|Swap Nodes in Pairs|
 |35|Search Insert Position|
 |46|[Permutations](https://leetcode.com/problems/permutations/description/)|
