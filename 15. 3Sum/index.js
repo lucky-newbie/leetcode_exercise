@@ -66,23 +66,30 @@ function isUniqe(array, obj) {
 
 
 var threeSum = function(nums) {
-  nums = nums.sort(function(a, b) { return a - b; });
+  var results = []
+  if (nums.length < 3) return results
   
-  var results = [];
-  var i, j, k, n = nums.length;
-  
-  for (i = 0; i < n; ++i) {
-      if (i > 0 && nums[i] === nums[i-1]) continue;
-      
-      for (j = i + 1; j < n; ++j) {
-          if (j > i + 1 && nums[j] === nums[j-1]) continue;
-          
-          for (k = j + 1; k < n; ++k) {
-              if (k > j + 1 && nums[k] === nums[k-1]) continue;
-              
-              if (nums[i] + nums[j] + nums[k] === 0) results.push([nums[i], nums[j], nums[k]]);
-          }
+  nums = nums.sort((x,y) => {return x-y})
+  for (var i = 0; i < nums.length - 2; i++) {
+    if (i > 0 && nums[i-1] === nums[i]) continue
+    var target = -1 * nums[i]
+    if (nums[i+1]*2>target || nums[nums.length-1]*2 < target) continue
+    var j = i + 1
+    var k = nums.length - 1
+    while (j < k) {
+      var candidate = nums[j] + nums[k]
+      if (candidate === target) {
+        results.push([nums[i], nums[j], nums[k]])
+        j++
+        while (j < k && nums[j-1] === nums[j]) j++
+        k--
+        while (k > j && nums[k] === nums[k+1]) k--
+      } else if (candidate < target) {
+        j++
+      } else { // cadidate > target
+        k--
       }
+    }
   }
-  return results;
+  return results
 };
