@@ -7,6 +7,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |---|---|---|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|
 |3|Longest Substring Without Repeating Characters|
+|15|[3Sum](https://leetcode-cn.com/problems/3sum/)|
 |17|Letter Combinations of a Phone Number|
 |19|Remove Nth Node From End of List|
 |20|Valid Parentheses|
