@@ -20,6 +20,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description)|
 |79|Word Search|
 |82|Remove Duplicates from Sorted List II|
+|100|[Same Tree](https://leetcode.com/problems/same-tree/)|
 |102|Binary Tree Level Order Traversal|
 |103|Binary Tree Zigzag Level Order Traversal|
 |112|Path Sum|
