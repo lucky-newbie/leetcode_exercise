@@ -16,6 +16,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |24|Swap Nodes in Pairs|
 |35|Search Insert Position|
 |46|[Permutations](https://leetcode.com/problems/permutations/description/)|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description)|
 |79|Word Search|
