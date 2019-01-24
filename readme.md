@@ -6,6 +6,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |题号|标题|解题|
 |---|---|---|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|
 |3|Longest Substring Without Repeating Characters|
 |15|[3Sum](https://leetcode-cn.com/problems/3sum/)|
 |17|Letter Combinations of a Phone Number|
