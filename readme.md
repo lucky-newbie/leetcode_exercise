@@ -21,6 +21,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description)|
 |79|Word Search|
+|78|[Subsets](https://leetcode.com/problems/subsets/)|
 |82|Remove Duplicates from Sorted List II|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|
 |102|Binary Tree Level Order Traversal|
