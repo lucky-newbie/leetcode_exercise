@@ -29,6 +29,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |112|Path Sum|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|
 |136|Single Number|
+|141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|
 |144|Binary Tree Preorder Traversal|
 |153|Find Minimum in Rotated Sorted Array|
 |167|Two Sum II - Input array is sorted|
