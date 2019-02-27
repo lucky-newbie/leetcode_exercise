@@ -23,6 +23,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |79|Word Search|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|
 |82|Remove Duplicates from Sorted List II|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|
 |102|Binary Tree Level Order Traversal|
 |103|Binary Tree Zigzag Level Order Traversal|
