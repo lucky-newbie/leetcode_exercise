@@ -33,6 +33,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|
 |144|Binary Tree Preorder Traversal|
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|
 |153|Find Minimum in Rotated Sorted Array|
 |167|Two Sum II - Input array is sorted|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|
