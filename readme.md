@@ -43,6 +43,7 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |217|Contains Duplicate|
 |219|Contains Duplicate II|
 |226|Invert Binary Tree|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|
 |234|Palindrome Linked List|
 |235|Lowest Common Ancestor of a Binary Search Tree|
 |237|Delete Node in a Linked List|
