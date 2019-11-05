@@ -64,7 +64,9 @@ this is leetcode exercise with javascript, each folder is same to leetcode quest
 |448|Find All Numbers Disappeared in an Array|
 |454|4Sum II|
 |455|[455. Assign Cookies](https://leetcode.com/problems/assign-cookies/)|
+|476|[Number Complement](https://leetcode.com/problems/number-complement/)
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|
+|541|[541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
 |557|Reverse Words in a String III|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|
